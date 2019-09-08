@@ -6,6 +6,9 @@ namespace GeorgeMichaelJackson.Models
 {
     internal class Graph<T>
     {
+        public int MaxLength { get; private set; } = 0;
+        public IList<string> LongestPaths { get; private set; } = new List<string>();
+
         public Graph(params Vertex<T>[] initialNodes)
             : this((IEnumerable<Vertex<T>>)initialNodes)
         {
@@ -38,16 +41,41 @@ namespace GeorgeMichaelJackson.Models
             DepthFirstSearchImpl(root, writer);
         }
 
-        private void DepthFirstSearchImpl(Vertex<T> root, Action<string> writer)
+        private void DepthFirstSearchImpl(Vertex<T> root, Action<string> writer, string previousValue = null, int count = 0)
         {
             if (!root.IsVisited)
             {
-                writer($"{root.Value} ");
+                bool longest = false;
+
+                count++;
+
+                if (count > MaxLength)
+                {
+                    MaxLength = count;
+                    longest = true;
+                }
+
+                var value = previousValue + (root.NeighborCount > 0
+                    ? $"{count}: {root.Value} -> "
+                    : $"{count}: {root.Value.ToString()}");
+
+                if (count == MaxLength)
+                {
+                    LongestPaths.Add(value);
+                }
+
+                if (longest)
+                {
+                    LongestPaths = new List<string>() { value };
+                }
+
+                writer(value);
+
                 root.IsVisited = true;
 
                 foreach (Vertex<T> neighbor in root.Neighbors)
                 {
-                    DepthFirstSearchImpl(neighbor, writer);
+                    DepthFirstSearchImpl(neighbor, writer, value, count);
                 }
             }
         }

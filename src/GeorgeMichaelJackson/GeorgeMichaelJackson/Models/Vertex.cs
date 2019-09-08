@@ -38,6 +38,6 @@ namespace GeorgeMichaelJackson.Models
             => Neighbors.Remove(vertex);
 
         public override string ToString()
-            => Neighbors.Aggregate(new StringBuilder($"{Value}: "), (sb, n) => sb.Append($"{n.Value} ")).ToString();
+            => Neighbors.Aggregate(new StringBuilder($"{Value}: "), (sb, n) => sb.Append($"{n.Value} -> ")).ToString();
     }
 }
