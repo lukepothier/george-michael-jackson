@@ -21,6 +21,7 @@ namespace GeorgeMichaelJackson
             var inputs = File.ReadLines(@"Assets\billboard-unique.txt");
 
             Console.WriteLine($"Input count was {inputs.Count()} strings");
+            Console.WriteLine(Environment.NewLine);
 
             foreach (var input in inputs)
                 vertices.Add(new Vertex<string>(input));
@@ -51,7 +52,8 @@ namespace GeorgeMichaelJackson
 
             var graphBuildDuration = sw.Elapsed;
 
-            Debug.WriteLine($"Graph was size {graph.Size}");
+            Console.WriteLine($"Graph was size {graph.Size}");
+            Console.WriteLine(Environment.NewLine);
 
             var searchSw = Stopwatch.StartNew();
 
@@ -64,6 +66,7 @@ namespace GeorgeMichaelJackson
             var searchDuration = searchSw.Elapsed;
 
             Console.WriteLine($"Graph max length: {graph.MaxLength}");
+            Console.WriteLine(Environment.NewLine);
 
             Console.WriteLine(graph.LongestPaths.Count == 1
                 ? "Graph longest path:"
