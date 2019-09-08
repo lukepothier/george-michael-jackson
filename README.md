@@ -6,6 +6,6 @@ Given a list of strings, for example artist/band names, chain the strings togeth
 
 is a valid overlapping concatenation of `George Michael` and `Michael Jackson`, because `Michael` is the last word of `George Michael` and the first word of `Michael Jackson`, and both appear on the input list.
 
-The input is available at [billboard-unique.txt](src/GeorgeMichaelJackson/Assets/billboard-unique.txt)
+The input is available at [billboard-unique.txt](src/GeorgeMichaelJackson/Assets/billboard-unique.txt).
 
 Results are in [results.txt](results.txt).
