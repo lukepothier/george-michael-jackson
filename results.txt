@@ -1,0 +1,27 @@
+Input count was 6757 strings
+
+
+Graph was size 6757
+
+
+Graph max length: 19
+
+
+Graph longest paths:
+Johnny Cash And The Tennessee Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray J Balvin
+Johnny Cash And The Tennessee Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Brown
+Johnny Cash And The Tennessee Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Fredericks
+Seven Mary Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray J Balvin
+Seven Mary Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Brown
+Seven Mary Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Fredericks
+The Ivy Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray J Balvin
+The Ivy Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Brown
+The Ivy Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Fredericks
+The Pixies Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray J Balvin
+The Pixies Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Brown
+The Pixies Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Fredericks
+
+
+Graph was constructed in 00:00:39.7544424
+Search took was constructed in 00:00:00.3838274
+Total time was 00:00:40.1495620
