@@ -22,6 +22,6 @@ The Pixies Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bo
 The Pixies Three Days Grace Slick Rick James Brown Boy George Michael Ray And Bob James Ray Charles Brown Sugar Ray Sawyer Fredericks
 
 
-Graph was constructed in 00:00:39.7544424
-Search took was constructed in 00:00:00.3838274
-Total time was 00:00:40.1495620
+Graph was constructed in 00:00:39.7319769
+Search took 00:00:00.3701014
+Total duration was 00:00:40.1158457
