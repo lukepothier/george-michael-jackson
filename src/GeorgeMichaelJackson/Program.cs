@@ -77,8 +77,8 @@ namespace GeorgeMichaelJackson
 
             Console.WriteLine(Environment.NewLine);
             Console.WriteLine($"Graph was constructed in {graphBuildDuration}");
-            Console.WriteLine($"Search took was constructed in {searchDuration}");
-            Console.WriteLine($"Total time was {sw.Elapsed}");
+            Console.WriteLine($"Search took {searchDuration}");
+            Console.WriteLine($"Total duration was {sw.Elapsed}");
             Console.WriteLine(Environment.NewLine);
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
